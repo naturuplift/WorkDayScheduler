@@ -29,7 +29,7 @@ This daily planner application allows users to create and manage their daily sch
 
 Clone the repository to your local machine and open the `index.html` file in a web browser.
 
-```bash
+```
 git clone https://github.com/naturuplift/work-day-scheduler.git
 
 ```
