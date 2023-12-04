@@ -25,14 +25,9 @@ This daily planner application allows users to create and manage their daily sch
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## Getting Started
 
-Clone the repository to your local machine and open the `index.html` file in a web browser.
-
-```
-git clone https://github.com/naturuplift/work-day-scheduler.git
-
-```
+To use the application, simply visit the link [Work Day Scheduler][scheduler-link].
 
 ## Usage
 
@@ -58,6 +53,7 @@ License
 This project is licensed under the MIT License. See the [LICENSE][MIT] file for details.
 
 [code-quiz-app]: <https://naturuplift.github.io/code-quiz/>
+[scheduler-link]: <https://github.com/naturuplift/work-day-scheduler.git>
 [quiz-code]: <https://github.com/naturuplift/work-day-scheduler/blob/main/develop/script.js>
 [state-flow]: <https://github.com/naturuplift/work-day-scheduler/blob/main/assets/img/Work%20Day%20Scheduler%20State%20Diagram%20v1.png>
 [MIT]: <https://github.com/naturuplift/work-day-scheduler/blob/main/LICENSE>
