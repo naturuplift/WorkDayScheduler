@@ -28,25 +28,28 @@ $(document).ready(  function () {
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour.
   // Loop through each time block
-  $('.time-block').each(function () {
-    // Extract the hour from the time-block id
-    var blockHour = parseInt($(this).attr('id').split('-')[1]);
+  for (let hour = 9; hour < 18; hour++) {
+    // time block to check
+    let blockId = '#hour-' + hour;
 
+    // Extract the hour from the time-block id
+    var blockHour = parseInt(hour);
+    
     // Compare blockHour with currentHour to determine past, present, or future
     if (blockHour < currentHour) { 
       // block is in the past
-      $(this).removeClass('present future').addClass('past');
+      $(blockId).removeClass('present future').addClass('past');
 
     } else if (blockHour === currentHour) {
       // block is in the present
-      $(this).removeClass('past future').addClass('present');
+      $(blockId).removeClass('past future').addClass('present');
 
     } else {
       // block is in the future
-      $(this).removeClass('past present').addClass('future');
+      $(blockId).removeClass('past present').addClass('future');
 
     }
-  });
+  }
   
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements.
