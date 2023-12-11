@@ -8,7 +8,7 @@ $(document).ready(  function () {
   var currentHour = dayjs().hour();
   var today = dayjs();
 
-  $('.day2-date').text(today.format('[Today is] h:mm:ss a')); // TODO comment once done coloring the current hour
+  // $('.day2-date').text(today.format('[Today is] h:mm:ss a')); // TODO comment once done coloring the current hour
 
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
