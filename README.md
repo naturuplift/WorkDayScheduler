@@ -13,6 +13,10 @@
 </p>
 <br/>
 
+## Getting Started
+
+To use the application, simply visit the link [Work Day Scheduler][scheduler-link].
+
 ## Description
 
 This daily planner application allows users to create and manage their daily schedules effectively. The application provides a user-friendly interface with features such as displaying the current day, time blocks for standard business hours, color-coded blocks for past, present, and future events, event entry, and local storage for saving and persisting events.
@@ -22,15 +26,10 @@ This daily planner application allows users to create and manage their daily sch
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
-- [State Flow Diagram](#state_flow_diagram)
+- [State Flow Diagram](#state-flow-diagram)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Getting Started
-
-To use the application, simply visit the link [Work Day Scheduler][scheduler-link].
 
 ## Usage
 
